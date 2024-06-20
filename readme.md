@@ -29,9 +29,9 @@ The accuracy of the model in the test dataset is 93%, which is pretty good.
 ## Visualization
 Post-training results were used to visualize and localize areas in x-ray images indicating pneumonia, using heatmaps generated from the last convolution layer of each network.
 <p align="center">
-  <img src="heatmap_normal.png" alt="Normal" width="200"/>
-  <img src="heatmap_pne.png" alt="Pneumonia" width="200"/>
+  <img src="images/heatmap_normal.png" alt="Normal" width="200"/>
+  <img src="images/heatmap_pne.png" alt="Pneumonia" width="200"/>
 </p>
 
 ## GUI
-![A Gui to see how the model prediction looks like](gui.gif)
+![A Gui to see how the model prediction looks like](images/gui.gif)
